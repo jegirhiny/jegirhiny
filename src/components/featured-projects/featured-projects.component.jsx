@@ -9,7 +9,7 @@ const Projects = () => {
           title="E-Commerce Website"
           desc="A modern e-commerce website focused on functionality and ease of use, where users may browse a wide selection of products, add or remove items from their cart, and adjust quantities as needed."
           tech={["React", "JavaScript", "HTML", "CSS"]}
-          link="https://github.com/jegirhiny/jegirhiny.github.io"
+          link="https://github.com/jegirhiny/weather-app"
         />
         <ProjectItem
           title="Weather App"
