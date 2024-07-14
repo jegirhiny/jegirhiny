@@ -1,56 +1,56 @@
 .projects-div-inner {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
-    margin: 5vh 5vw;
-    width: 20vw;
-    height: 35vh;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  margin: 5vh 5vw;
+  width: 20vw;
+  height: 35vh;
 }
 
 .projects-div-inner h2 {
-    opacity: 1;
-    font-weight: 400;
-    font-size: 30px;
-    text-align: left;
+  opacity: 1;
+  font-weight: 400;
+  font-size: 30px;
+  text-align: left;
 }
 
 .projects-div-inner h3 {
-    font-size: 16px;
-    text-align: center;
+  font-size: 16px;
+  text-align: center;
 }
 
 .projects-div-inner p {
-    font-size: 17px;
-    width: fit-content;
+  font-size: 17px;
+  width: fit-content;
 }
 
 .row {
-    width: inherit;
-    display: flex;
+  width: inherit;
+  display: flex;
 }
 
 .tech-used {
-    text-transform: uppercase;
-    font-weight: 500;
-    background-color: #1e1e1e;
-    width: fit-content;
-    border-radius: 15px;
-    color: #FFFFFF;
-    padding: 5px 25px;
-    margin-right: 10px;
+  text-transform: uppercase;
+  font-weight: 500;
+  background-color: #1e1e1e;
+  width: fit-content;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 5px 25px;
+  margin-right: 10px;
 }
 
 .github {
-    transition: 300ms all ease-in-out;
-    text-align: center;
-    width: 8vw;
-    text-decoration: none;
-    border-bottom: 2px solid #A63D40;
-    font-size: 17px;
-    padding: 10px 0;
-    color: #E9B872;
+  transition: 300ms all ease-in-out;
+  text-align: center;
+  width: 8vw;
+  text-decoration: none;
+  border-bottom: 2px solid #a63d40;
+  font-size: 17px;
+  padding: 10px 0;
+  color: #e9b872;
 }
 
 .github:hover {
-    background-color: #A63D4050;
+  background-color: #a63d4050;
 }

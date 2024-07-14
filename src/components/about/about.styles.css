@@ -1,13 +1,13 @@
 .about-me-background {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    flex-wrap: wrap;
-    height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  height: 90vh;
 }
 
 .about-me-background a {
-    font-size: 17px;
-    color: #A63D40;
+  font-size: 17px;
+  color: #a63d40;
 }

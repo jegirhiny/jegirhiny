@@ -1,45 +1,45 @@
 #resume {
-    transition: all 300ms ease-in;
-    border: 2px solid #A63D40;
-    color: #E9B872;
+  transition: all 300ms ease-in;
+  border: 2px solid #a63d40;
+  color: #e9b872;
 }
 
 #resume:hover {
-    background-color: #A63D40;
-    transform: none;
+  background-color: #a63d40;
+  transform: none;
 }
 
 .nav-bar {
-    display: flex;
-    align-items: center;
-    height: 10vh;
+  display: flex;
+  align-items: center;
+  height: 10vh;
 }
 
 .nav-bar span {
-    margin-right: 10px;
-    color: #E9B872;
+  margin-right: 10px;
+  color: #e9b872;
 }
 
 .nav-list {
-    text-align: right;
-    width: 75vw;
+  text-align: right;
+  width: 75vw;
 }
 
 .nav-list a {
-    color: #FFFFFF;
-    display: inline-flex;
-    margin-left: 30px;
-    padding: 10px;
-    text-decoration: none;
-    transition: all 300ms ease-in;
+  color: #ffffff;
+  display: inline-flex;
+  margin-left: 30px;
+  padding: 10px;
+  text-decoration: none;
+  transition: all 300ms ease-in;
 }
 
 .nav-list a:hover {
-    color: #E9B872;
+  color: #e9b872;
 }
 
 .nav-name {
-    color: #FFFFFF !important;
-    text-align: left;
-    width: 25vw;
+  color: #ffffff !important;
+  text-align: left;
+  width: 25vw;
 }

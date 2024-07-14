@@ -1,27 +1,27 @@
 .projects-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    height: 90vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  height: 90vh;
 }
 
 .special-text {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .projects-div {
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    width: 80vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  width: 80vw;
 }
 
 .vault {
-    font-size: inherit;
-    color: #A63D40;
-    text-decoration: underline;
-    text-decoration-color: #FFFFFF;
+  font-size: inherit;
+  color: #a63d40;
+  text-decoration: underline;
+  text-decoration-color: #ffffff;
 }
