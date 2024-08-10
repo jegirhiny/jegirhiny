@@ -15,7 +15,7 @@ const Landing = () => {
           I'm Jake Girhiny<span style={{ color: "#a63d40" }}>.</span>
         </h1>
         <h3 style={{ marginTop: "5px" }}>
-          Full Stack Developer with expertise in building web applications using
+          Full-Stack Developer with expertise in building web applications using
           Node.js, Express, React, and PostgreSQL.
         </h3>
         <div className="landing-options">
