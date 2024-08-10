@@ -1,56 +1,58 @@
-.projects-div-inner {
+.project {
+  width: 600px;
+  margin: 10px 0;
+}
+
+.project-head {
   display: flex;
-  justify-content: space-evenly;
-  flex-direction: column;
-  margin: 5vh 5vw;
-  width: 20vw;
-  height: 35vh;
+  align-items: center;
+  padding: 5px 30px;
+  border: 1px solid #a63d40;
+  border-radius: 5px;
+  flex-direction: row;
+  cursor: pointer;
 }
 
-.projects-div-inner h2 {
-  opacity: 1;
-  font-weight: 400;
-  font-size: 30px;
-  text-align: left;
+.project-head:hover {
+  background-color: rgb(166, 61, 64, 0.2);
 }
 
-.projects-div-inner h3 {
+.project-head h3 {
+  position: relative;
+  top: -2px;
+}
+
+.dropdown {
+  height: 0;
+  border-radius: 5px;
+  background-color: rgb(166, 61, 64, 0.45);
+  overflow: hidden;
+  transition: all 300ms ease-in;
+}
+
+.dropdown * {
   font-size: 16px;
-  text-align: center;
 }
 
-.projects-div-inner p {
-  font-size: 17px;
-  width: fit-content;
+.active {
+  margin-top: 5px;
+  transition: all 300ms ease-in;
+  height: 150px;
 }
 
-.row {
-  width: inherit;
-  display: flex;
+.toggle-icon {
+  font-size: 15px;
+  top: -1px !important;
 }
 
-.tech-used {
-  text-transform: uppercase;
-  font-weight: 500;
-  background-color: #1e1e1e;
-  width: fit-content;
-  border-radius: 15px;
-  color: #ffffff;
-  padding: 5px 25px;
-  margin-right: 10px;
+.tech {
+  border-radius: 5px;
+  background-color: rgb(166, 61, 64, 0.5);
+  margin-left: 20px;
+  padding: 5px 15px;
 }
 
-.github {
-  transition: 300ms all ease-in-out;
-  text-align: center;
-  width: 8vw;
-  text-decoration: none;
-  border-bottom: 2px solid #a63d40;
-  font-size: 17px;
-  padding: 10px 0;
-  color: #e9b872;
-}
-
-.github:hover {
-  background-color: #a63d4050;
+.tech > h3 {
+  position: relative;
+  top: -2px;
 }

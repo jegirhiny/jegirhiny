@@ -1,20 +1,15 @@
 import "./nav-bar-right.styles.css";
+import { useNavigate } from "react-router-dom";
 
 const NavBarRight = () => {
+  const navigate = useNavigate();
+
   return (
     <div className="vertical-right-bar">
-      <a href="#landing">
-        <img src="../images/home-logo.png" alt="GitHub" />
-      </a>
-      <a href="#about">
-        <img src="../images/terminal-logo.png" alt="Gmail" />
-      </a>
-      <a href="#projects">
-        <img src="../images/code-logo.png" alt="Instagram" />
-      </a>
-      <a href="#contact">
-        <img src="../images/phone-logo.png" alt="Instagram" />
-      </a>
+      <button onClick={() => navigate("/")}>Home</button>
+      <button onClick={() => navigate("/contact")}>Contact</button>
+      <button onClick={() => navigate("/projects")}>Projects</button>
+      <button onClick={() => navigate("/skills")}>Skills</button>
       <div className="vertical-right"></div>
     </div>
   );

@@ -1,0 +1,14 @@
+.skills {
+  display: flex;
+}
+
+.skills > h3:first-child {
+  margin: 5px 10px 5px 0;
+}
+
+.skills > h3 {
+  padding: 5px 30px;
+  border: 1px solid #a63d40;
+  border-radius: 5px;
+  margin: 5px 10px;
+}

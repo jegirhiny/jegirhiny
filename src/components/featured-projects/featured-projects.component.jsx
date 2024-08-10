@@ -1,36 +1,61 @@
-import ProjectItem from "../project-item/project-item.components";
 import "./featured-projects.styles.css";
+import {
+  LuShoppingBag,
+  LuCloudLightning,
+  LuLock,
+  LuType,
+} from "react-icons/lu";
+import ProjectItem from "../project-item/project-item.components";
+import NavBarRight from "../nav-bar-right/nav-bar-right.component";
+import NavBarLeft from "../nav-bar-left/nav-bar-left.component";
 
 const Projects = () => {
   return (
-    <div className="projects-container">
-      <div className="projects-div">
+    <section>
+      <div className="highlight-bar" />
+      <div className="content">
+        <div style={{ marginBottom: "40px" }}>
+          <h3 className="highlight">Explore my work.</h3>
+          <h1>
+            View my projects<span style={{ color: "#a63d40" }}>.</span>
+          </h1>
+          <h3 style={{ marginTop: "5px" }}>
+            I'm excited to share the projects I've been working on. Feel free to
+            browse the links below to see what I've been up to.
+          </h3>
+        </div>
         <ProjectItem
+          image={<LuShoppingBag className="icon" />}
           title="E-Commerce Website"
-          desc="A modern e-commerce website focused on functionality and ease of use, where users may browse a wide selection of products, add or remove items from their cart, and adjust quantities as needed."
-          tech={["React", "JavaScript", "HTML", "CSS"]}
           link="https://github.com/jegirhiny/my-market"
+          desc="Minimalistic marketplace designed with performance in mind, offering a seamless shopping experience with a clean user interface."
+          tech={["PostgreSQL", "Express", "React", "Node.js"]}
         />
         <ProjectItem
+          image={<LuCloudLightning className="icon" />}
           title="Weather App"
-          desc="Get weather forecasts, current conditions, and more, all in one convenient place. Plan confidently, access accurate weather data, and never be caught off guard by the elements again."
-          tech={["JavaScript", "HTML", "CSS"]}
           link="https://github.com/jegirhiny/weather-app"
+          desc="Dynamic weather application offering real-time weather updates and forecasts, all in one convenient place."
+          tech={["Axios", "JavaScript", "HTML", "CSS"]}
         />
         <ProjectItem
+          image={<LuLock className="icon" />}
           title="Password Generator"
-          desc="A robust and user-friendly password generator tool, capable of creating highly secure and customizable passwords. It features a range of options for generating strong and unique keys."
-          tech={["JavaScript", "HTML", "CSS"]}
           link="https://github.com/jegirhiny/password-generator"
+          desc="Robust and user-friendly password generator, designed to effortlessly create secure and customizable passwords."
+          tech={["Axios", "JavaScript", "HTML", "CSS"]}
         />
         <ProjectItem
+          image={<LuType className="icon" />}
           title="Wordle"
-          desc="Challenge your word-guessing skills with the classic web game, Wordle. This project presents a Java and JavaFX implementation, highlighting proficiency in Java development and UI design."
-          tech={["Java", "JavaFX", "CSS"]}
           link="https://github.com/jegirhiny/wordle"
+          desc="Rendition of the Wordle game implemented in Java, leveraging the JavaFX framework for user interface"
+          tech={["Java", "JavaFX"]}
         />
       </div>
-    </div>
+      <NavBarRight />
+      <NavBarLeft />
+    </section>
   );
 };
 

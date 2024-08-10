@@ -1,6 +1,6 @@
-import "./social-bar-left.styles.css";
+import "./nav-bar-left.styles.css";
 
-const SocialBarLeft = () => {
+const NavBarLeft = () => {
   return (
     <div className="vertical-left-bar">
       <a href="https://github.com/jegirhiny">
@@ -9,12 +9,9 @@ const SocialBarLeft = () => {
       <a href="https://www.linkedin.com/in/jegirhiny/">
         <img src="../images/linkedin-logo-240.png" alt="Instagram" />
       </a>
-      <a href="mailto:jegirhiny@gmail.com">
-        <img src="../images/envelope-regular-240.png" alt="Gmail" />
-      </a>
       <div className="vertical-left"></div>
     </div>
   );
 };
 
-export default SocialBarLeft;
+export default NavBarLeft;

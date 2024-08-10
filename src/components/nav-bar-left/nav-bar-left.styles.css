@@ -1,7 +1,7 @@
 .vertical-left-bar {
   position: fixed;
   width: 60px;
-  left: 40px;
+  left: 300px;
   bottom: 0;
 }
 
@@ -10,7 +10,7 @@
   padding: 10px;
   margin: 5px;
   width: 30px;
-  transition: all 300ms ease-in;
+  transition: all 150ms ease-in;
 }
 
 .vertical-left-bar img:hover {
@@ -22,7 +22,7 @@
 .vertical-left {
   height: 100px;
   width: 14px;
-  margin: 10px 0 0 0;
-  padding: 0 0 0 15px;
-  border-right: 2px solid #a63d40;
+  margin-top: 10px;
+  padding-left: 15px;
+  border-right: 3px solid #a63d40;
 }
