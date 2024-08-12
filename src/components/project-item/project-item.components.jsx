@@ -1,4 +1,5 @@
 import "./project-item.styles.css";
+import { LuExternalLink } from "react-icons/lu";
 
 const ProjectItem = ({ image, title, link, desc, tech }) => {
   const handleClick = (e) => {
@@ -32,7 +33,11 @@ const ProjectItem = ({ image, title, link, desc, tech }) => {
         <h3 className="highlight toggle-icon">▼</h3>
       </div>
       <div className="dropdown">
-        <h3 style={{ margin: "20px" }}>{desc}</h3>
+        <a className="link" href={link}>
+          <LuExternalLink className="icon" style={{ marginRight: "10px" }} />
+          {link.substring(8)}
+        </a>
+        <h3 style={{ margin: "20px 31px" }}>{desc}</h3>
         <div style={{ display: "flex" }}>
           {tech.map((tech, index) => (
             <div className="tech">
